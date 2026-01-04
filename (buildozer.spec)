@@ -1,0 +1,18 @@
+[app]
+title = PuffinClone
+package.name = puffinclone
+package.domain = org.test
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
+version = 0.1
+requirements = python3,kivy,android,pyjnius
+
+# Android specific
+android.permissions = INTERNET
+android.api = 31
+android.minapi = 21
+android.archs = armv7
+
+[buildozer]
+log_level = 2
+warn_on_root = 1
